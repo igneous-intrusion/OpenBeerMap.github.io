@@ -140,10 +140,7 @@ function draw_beer(query, icon, surcharge)
                         if (surcharge == false) {icon_o = "assets/img/beers/blue.png"}
                     }
                     content +="</table>";
-                    if(e.type == "node" || e.type == "way")
-                    {
-                        content += '<p class="action"><a href="#" class="btn btn-default" onClick="edit_bar(\'' + e.type + '\', ' + e.id.toString() + ');"><i class="fa fa-edit"></i> <span data-l10n-id="map_popup_edit">Edit bar information</span></a></p>';
-                    }
+                    
 
                     if(!(icon_o in markerIcons))
                     {

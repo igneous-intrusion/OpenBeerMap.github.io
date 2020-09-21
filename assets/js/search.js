@@ -21,7 +21,7 @@ $("#setupAddFavoriteInput").autocomplete({
                         list.push({
                             value : data[i].BeerTag,
                             label : data[i].BeerTag,
-                            image : data[i].ImageName ? data[i].ImageName : "beer1.png"
+                            image : data[i].ImageName ? data[i].ImageName : "blue.png"
                         });
                     }
                 }
